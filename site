@@ -36,7 +36,7 @@ body, html {
       <a href="#about" class="w3-button w3-block w3-black">QUEM SOMOS?</a>
     </div>
     <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+      <a href="#menu" class="w3-button w3-block w3-black">NOSSA EQUIPE</a>
     </div>
     <div class="w3-col s3">
       <a href="#where" class="w3-button w3-block w3-black">ONDE ESTAMOS?</a>
@@ -64,16 +64,18 @@ body, html {
 <!-- About Container -->
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
-    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">QUEM SOMOS?</span></h5>
+    <p>Somos uma equipe de desenvolvedores que através de uma parceria com um grupo de psicólogos, desenvolvemos aqui, um site para pessoas com problemas que afetem seu psicologico</p>
+    <p>Nosso foco é proporcionar à qualquer pessoa um breve atendimento para tratar de assuntos que se tornam um peso para nosso psicologico no dia dia.</p>
+    <p>Nossa equipe está sempre aberta e disposta em lhe ajudar da melhor maneira possível, aqui você não terá um psicólogo apenas, e sim, um amigo para compartilhar suas aflições e também suas alegrias.</p>
+    <p>Não se esqueça, sempre que precisar, estaremos aqui, dispostos a te atender e partilhar boas experiências além de auxiliar naquilo que for necessário para vencermos esta situação!.</p>
     <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+      <p><i>"O importante não é vencer todos os dias, mas lutar sempre."</i></p>
+      <p>VALLE, Waldemar</p>
     </div>
-    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
-    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+    <img src="https://img.freepik.com/fotos-gratis/pessoa-no-topo-da-montanha_1160-904.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Horarios</strong> Todos os dias, das 10:00 às 21:35.</p>
+    <p><strong>Se não for redirecionado automaticamente para o atendimento, aguarde um instante que iremos te atender.</p>
   </div>
 </div>
 
@@ -81,68 +83,76 @@ body, html {
 <div class="w3-container" id="menu">
   <div class="w3-content" style="max-width:700px">
  
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">NOSSA EQUIPE</span></h5>
   
     <div class="w3-row w3-center w3-card w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
+        <div class="w3-col s6 tablink">Desenvolvedores</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
+        <div class="w3-col s6 tablink">Psicólogos</div>
       </a>
     </div>
 
     <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+      <h5>Markys Freire</h5>
+      <p class="w3-text-grey">Gestor responsavel pelo desenvolvimento do projeto.</p><br>
+      
+      <h5>Jean Carlos</h5>
+      <p class="w3-text-grey">Orientador efetivo da equipe</p><br>
     
-      <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <h5>Luiz Henrique</h5>
+      <p class="w3-text-grey">Responsável interface gráfica do site</p><br>
+      
+      <h5>Cleber Soares</h5>
+      <p class="w3-text-grey">Gerente de desenvolvimento</p><br>
     
-      <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+      <h5>Juarez Ribeiro</h5>
+      <p class="w3-text-grey">Assistente de desenvolvimento</p>
+
     </div>
 
     <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+      <h5>Victor Hugo</h5>
+      <p class="w3-text-grey">Formado na Universidade de Harvard, Cambridge, Massachusetts</p>
+      <p class="w3-text-grey">Mestre em Neuropsicologia<p/><br>
     
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+      <h5>Lucas Coutinho</h5>
+      <p class="w3-text-grey">Formado na Universidade de Harvard, Cambridge, Massachusetts</p>
+      <p class="w3-text-grey">Pós Graduado em Psicopedagogia</p><br>
     
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+      <h5>Cleber Soares</h5>
+      <p class="w3-text-grey">Formado na Universidade de Stanford, Califórnia</p>
+      <p class="w3-text-grey">Pós Doutorado em Pscicologia Educacional</p><br>
+      
+      <h5>Edvaldo Junior</h5>
+      <p class="w3-text-grey">Formado na  Universidade de Oxford, Inglaterra</p>
+      <p class="w3-text-grey">Doutor em Psicologia Esportiva</p><br>
     
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
-    
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+      <h5>Thamires Ibáñez</h5>
+      <p class="w3-text-grey">Formada na Universidade de Tel Aviv, Israel</p>
+      <p class="w3-text-grey">Doutoranda em Psicologia Social<p/>
     </div>  
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipOugpX9DFooMbiiTbcQMXluXbXDvZbmMDVnJbIU=w1080-h608-p-no-v0" style="width:100%;max-width:1000px;margin-top:32px;">
+    
   </div>
 </div>
 
 <!-- Contact/Area Container -->
 <div class="w3-container" id="where" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
-    <p>Find us at some address at some place.</p>
-    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ONDE ESTAMOS?</span></h5>
+    <p>No momento não possuímos endereço físico, mas estamos online aqui mesmo, neste site, todos os dias esperando por você que precisa partilhar alguma situação da sua vida que de alguma forma está contribuindo para qualquer tipo de transtorno de ansiedade.<p/>
+    <p>Como foi mostrado na tabela acima, temos profissionais em vários ramos da pscicologia, para podermos te ajudar da melhor maneira possível, com um profissional que tenha total domínio da área em que você precisa.<p/>
+    <img src="https://blog.uceff.edu.br/wp-content/uploads/2019/05/290736-quais-sao-as-x-principais-abordagens-da-psicologia.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">RESERVE AQUI!</span>Abaixo, você pode fazer seu agendamento, se atentando para os nossos horarios de funcionamento.</p>
+    <p>Aguardamos você, para juntos passarmos por está fase da sua vida!<p/>
     <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2022-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Deixe uma Breve mensagem para podermos te atender melhor" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">ENVIAR MENSAGEM</button></p>
     </form>
   </div>
 </div>
@@ -152,7 +162,7 @@ body, html {
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">MARKYS FREIRE</a></p>
 </footer>
 
 <script>
