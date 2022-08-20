@@ -102,7 +102,7 @@ body, html {
       <p class="w3-text-grey">Orientador efetivo da equipe</p><br>
     
       <h5>Luiz Henrique</h5>
-      <p class="w3-text-grey">Responsável interface gráfica do site</p><br>
+      <p class="w3-text-grey">Responsável pela interface gráfica do site</p><br>
       
       <h5>Cleber Soares</h5>
       <p class="w3-text-grey">Gerente de desenvolvimento</p><br>
@@ -162,7 +162,8 @@ body, html {
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">MARKYS FREIRE</a></p>
+  <p>Powered by <a href="https://www.instagram.com/markyszz/" title="W3.CSS" target="_blank" class="w3-hover-text-green">MARKYS FREIRE</a></p>
+  
 </footer>
 
 <script>
